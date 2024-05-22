@@ -20,7 +20,10 @@ body {
   justify-content: center;
   background: linear-gradient(to top left, #28b487, #7dd56f);
 }
-
+.section-buttons {
+  display: flex;
+  flex-direction: column;
+}
 .show-modal {
   font-size: 2rem;
   font-weight: 600;
@@ -88,9 +91,14 @@ p {
   z-index: 10;
 }
 .ras {
-  top: 78%;
+  top: 110%;
 }
-
+.nyx {
+  top: 53%;
+}
+.piaNyx {
+  top: 59%;
+}
 .overlay {
   position: absolute;
   top: 0;
