@@ -33,7 +33,10 @@ body {
   cursor: pointer;
 }
 
-.close-modal {
+.close-modal,
+.close-nyx,
+.close-ras,
+.close-piaNyx {
   position: absolute;
   top: 1.2rem;
   right: 2rem;
@@ -45,12 +48,19 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 
 p {
   font-size: 1.8rem;
+}
+
+.imgNyx {
+  width: 11rem;
+}
+.imgPiaNyx {
+  width: 14rem;
 }
 
 /* -------------------------- */
@@ -59,7 +69,10 @@ p {
   display: none;
 }
 
-.modal {
+.modal,
+.nyx,
+.ras,
+.piaNyx {
   position: absolute;
   top: 50%;
   left: 50%;
